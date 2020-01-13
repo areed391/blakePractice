@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.blake.practice.sumNumbers.SumNumbersTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-12T19:57:06" hostname="Andrews-MacBook-Pro.local" time="0.037">
-  <properties/>
-  <testcase name="testSumNumbers()" classname="com.blake.practice.sumNumbers.SumNumbersTest" time="0.037"/>
-  <system-out><![CDATA[Your sum is = 12
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
