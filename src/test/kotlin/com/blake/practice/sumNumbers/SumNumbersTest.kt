@@ -2,6 +2,8 @@ package com.blake.practice.sumNumbers
 
 import org.junit.jupiter.api.Test
 import org.assertj.core.api.Assertions.assertThat
+import org.assertj.core.api.Assertions.assertThatExceptionOfType
+import java.lang.IllegalStateException
 
 class SumNumbersTest {
     private val calculator = Calculator()
@@ -12,11 +14,9 @@ class SumNumbersTest {
 
     var dio = -2
     @Test
-    fun testSumNumbers() {
-        val sum = calculator.sum(dio, secondNumber)
-//        assertThat(sum).isEqualTo(11)
-        println("Your sum is = $sum")
-
+    fun testSumNumbersWithNegativeValue() {
+        //Changing the assertion to expect an exception (since 'Dio' is now a negative number :-)
+        assertThatExceptionOfType(IllegalStateException::class.java).isThrownBy { calculator.sum(dio, secondNumber) }
     }
 
     @Test

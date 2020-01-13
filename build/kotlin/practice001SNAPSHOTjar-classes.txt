@@ -1,1 +1,0 @@
-/home/blakeneeld/Projects/blakePractice/build/classes/kotlin/main/com/blake/practice/PracticeApplication.class:/home/blakeneeld/Projects/blakePractice/build/classes/kotlin/main/com/blake/practice/PracticeApplicationKt.class:/home/blakeneeld/Projects/blakePractice/build/classes/kotlin/main/com/blake/practice/sumNumbers/SumNumbers.class

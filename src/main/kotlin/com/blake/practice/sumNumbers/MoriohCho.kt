@@ -6,7 +6,6 @@ class MoriohCho {
         when (input) {
             "Thundercross Split Attack!" -> "HINJAKU HINJAKU"
             "Smoke" -> "Fire!"
-
             else -> "I dont know"
 
         }
